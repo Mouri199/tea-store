@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Store</title>
+    <!-- daisy UI and tailwind css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/95b4e550be.js" crossorigin="anonymous"></script>
+    <!-- tailwind custome color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+ <style>
+    .font-manrope{
+        font-family: 'Manrope', sans-serif;
+    }
+ </style>
+</head>
+<body class="font-manrope">
+    <!-- banner container -->
+    <header class="container mx-auto">
+        <div class="my-20">
+            <div class="flex justify-between items-center flex-col lg:flex-row">
+              <div>
+                <h1 class="text-7xl font-extrabold text-[#1C1C1C]">It's good <br>
+                    tea time at The <br> Tea House</h1>
+                <p class="font-medium text-xl text-[#777] py-6">Tea and Botanical Solutions Supplier Give Optimum  Satisfaction To Your Taste Buds.</p>
+                <button class="btn text-white bg-gradient-to-r from-[#F00] to-[#FF8938]">Explore More <i class="fa-solid fa-arrow-up rotate-45"></i></button>
+              </div>
+            <div>
+                <img src="./images/banner.png" class="max-w-sm " />
+                <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60 rounded-lg">
+                    <i class=" text-3xl text-[#FFC850] fa-solid fa-star"></i>
+                    <div>
+                        <h3 class="text-3xl font-extrabold text-[#1C1C1C]">5.00</h3>
+                        <p class="font-semibold text-[#777]">Trust Pilote Ratings</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+    </header>
+    <main class="container mx-auto">
+        <!-- product feature -->
+        <section></section>
+    </main>
+</body>
+</html>
